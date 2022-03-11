@@ -1,0 +1,62 @@
+body,
+.list {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #979DAC;
+    color: #002855;
+    text-align: justify;
+}
+
+h2 {
+    color: #33415C;
+    margin-top: 0em;
+}
+p {
+    color: #33415C;
+}
+button {
+    margin-bottom: 2em;
+    color: #4A4E69;
+    margin-bottom: 1em;
+    border-radius: 1.5em;
+    background-color: transparent;
+    font-weight: lighter;
+    border-color: #979DAC;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 5px 10px 20px #0466C8;
+    text-decoration: turquoise;
+}
+
+#list {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 13px;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 13px;
+    border-radius: 1em;
+}
+
+#fruits {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#fruits li a {
+    margin-top: -1px;
+    padding: 5px;
+    text-decoration: wavy;
+    font-size: 25px;
+}
+#footer{
+    text-align: center;
+    margin-top: 4em;
+}

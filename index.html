@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Fruit list</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Fresh Organic Produce!</h1> <br>
+        <h2>Fruit List</h2> <br>
+        <input type="text" id="myInput" placeholder="Fruit Name">
+        <button onclick="newElement()" class="addBtn">Add</button> <br>
+        <input type="text" id="list" onkeyup="filterFruits()" placeholder="Search a fruit"> <br>
+
+
+        <ul id="fruits">
+
+        </ul>
+        <p>Click the button to sort the list alphabetically:</p>
+        <button onclick="sortList()">Sort</button>
+    </div>
+    <div id="footer">
+        <h5>Lesego Tshipu | Fruit List | Google Workplace Incubation 2022</h5>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+
+
+</html>
